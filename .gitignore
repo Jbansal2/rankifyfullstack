@@ -1,9 +1,4 @@
-# General
-*.log
-*.tmp
-*.bak
-*.swp
-*~
+
 
 # OS-generated files
 .DS_Store
