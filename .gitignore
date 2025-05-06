@@ -1,0 +1,56 @@
+# General
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build and dependency directories
+node_modules/
+dist/
+build/
+out/
+bin/
+obj/
+
+# Environment and configuration
+.env
+.env.local
+.env.*.local
+config.json
+secrets/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency lock files (optional, include if you don't want to version these)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Coverage and test reports
+coverage/
+test-reports/
+junit.xml
+
+# Miscellaneous
+*.pid
+*.seed
+*.gz
+*.zip
+
+
+# Ignore specific files or directories
+backend/node_modules
+frontend/node_modules
+.env
+frontend/.env
+backend/.env
+frontend/.env.local
